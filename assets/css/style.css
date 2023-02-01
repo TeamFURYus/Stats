@@ -7,6 +7,7 @@ body {
   font-family: 'Nunito', sans-serif;
   background: #1d0e15;
   color: #444444;
+  background-image: url()
 }
 
 a {
@@ -231,7 +232,7 @@ h6 {
 }
 
 .card-img-overlay {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(236, 45, 45, 0.6);
 }
 
 /* Alerts */
@@ -354,8 +355,9 @@ h6 {
 /* Info Cards */
 .dashboard .info-card {
   padding-bottom: 10px;
-  background:gray;
+  background: gray;
   border-radius: 30px;
+
 }
 
 .dashboard .info-card h6 {
@@ -471,4 +473,8 @@ h6 {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #666;
+}
+
+#battery{
+  transform: rotate(270deg);
 }
